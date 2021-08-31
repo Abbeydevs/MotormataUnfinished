@@ -1,0 +1,607 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body    {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid {
+    padding: 0 7%;
+}
+
+/* Header section */
+#header {
+    background-color: #000;
+    background-image: url("/images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+}
+
+#header nav.navbar {
+    padding: 1% 0;
+    margin-bottom: 150px;
+}
+
+#header nav img {
+    width: 60px;
+}
+
+#header ul.navbar-nav {
+    margin-right: 50px;
+}
+
+#header .nav-link {
+    margin: 0 20px;
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+#header .nav-link:hover {
+    color: #008937;
+}
+
+button.nav-btn {
+    padding: 10px 50px;
+    color: #fff;
+    background-color: #008937;
+}
+
+button.nav-btn:hover {
+    background-color: #003515;
+}
+
+
+/* Hero section */
+.hero {
+    padding-bottom: 150px;
+}
+
+/* left corner */
+
+.left-container {
+    max-width: 50%;
+}
+
+.hero-title {
+    color: #fff;
+    font-size: 5rem;
+}
+
+.green-hero-text {
+    color: #008937;
+}
+
+.hero-paragraph {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.signup-btn {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin: 50px 0;
+    width: 350px;
+    border-radius: 60px;
+    font-size: 1.2rem;
+}
+
+.signup-btn:hover {
+    color: #fff;
+    background-color: #000;
+    border: none;
+}
+
+/* right corner */
+
+.right-container {
+    padding: 40px;
+    background-color: #fff;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    color: #000;
+}
+
+.rt-form-title {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.car-icon {
+    position: absolute;
+    left: 60px;
+    top: 118px;
+    color: #545454;
+}
+
+.call-icon {
+    position: absolute;
+    left: 60px;
+    top: 182px;
+    font-size: 0.9rem;
+    color: #545454;
+}
+
+.right-container input {
+    display: block;
+    margin: 20px auto;
+    border: none;
+    background-color: #e0e0e0;
+    width: 300px;
+    padding: 10px 20px 10px 40px;
+    border-radius: 5px;
+}
+
+.rtc-btn {
+    background-color: #008937;
+    color: #fff;
+    width: 300px;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+.rc-btm-title {
+    font-size: 1.5rem;
+}
+
+/* Service section */
+
+#services {
+    padding: 0;
+    text-align: center;
+}
+
+#services nav{
+    background-color: rgb(61, 61, 61);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#services .nav-link {
+    padding: 20px 80px;
+    color: #fff;
+}
+
+#services .navbar-nav.navbar-center {
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.services-offered {
+    padding: 3% 7%;
+    text-align: center;
+}
+
+.periodic-services img, .body-repairs img, .ac-repair img, .custom-services img, .paper-insurance img, .batteries img {
+    width: 120px;
+}
+
+.sec-row    {
+    margin-top: 30px;
+}
+
+.periodic-services, .body-repairs, .ac-repair, .custom-services, .paper-insurance, .batteries {
+    margin: 20px auto;
+    padding: 70px 0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    max-width: 30%;
+    box-shadow: 5px 5px 20px #dfdfdf;
+    cursor: pointer;
+}
+
+.periodic-services:hover, .body-repairs:hover, .ac-repair:hover, .custom-services:hover, .paper-insurance:hover, .batteries:hover {
+    background-color: #008937;
+    cursor: pointer;
+}
+
+.ps-title, .br-title, .acr-title, .cs-title, .pi-title, .bt-title {
+    font-size: 1.5rem;
+    padding: 1px;
+    margin-bottom: 50px;
+}
+
+.periodic-services a, .body-repairs a, .ac-repair a, .custom-services a, .paper-insurance a, .batteries a {
+    color: #2e2e2e;
+    text-decoration: none;
+}
+
+
+/* Motormata Doctor section */
+#motormata-doctor {
+    background-image: url("/images/motdoc.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 10% 7%;
+    text-align: center;
+    color: #fff;
+}
+
+.md-title {
+    font-size: 4rem;
+    color: #53FF6E;
+}
+
+.md-paragraph {
+    font-size: 3rem;
+}
+
+/* How it works section */
+
+#how-it-works {
+    padding: 5% 7%;
+    text-align: center;
+}
+
+.how-title {
+    font-size: 3rem;
+    margin-bottom: 100px;
+}
+
+.select-car, .free-pickup, .hw-paper-insurance, .track-car {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.select-car img, .free-pickup img, .hw-paper-insurance img, .track-car img {
+    width: 180px;
+    margin-bottom: 40px;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    padding: 3% 7% 15%;
+    text-align: center;
+}
+
+.testimonials-title {
+    color: #008937;
+    margin-bottom: 100px;
+    font-size: 2rem;
+}
+
+.first-t-container, .second-testimony  {
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 1px 5px 10px #b9b9b9;
+}
+
+.img-name1 {
+    position: absolute;
+    left: 250px;
+    top: 180px;
+}
+
+.first-t-container img, .second-t-container img {
+    width: 100px;
+}
+
+.img-name2 {
+    position: absolute;
+    left: 250px;
+    top: 180px;
+}
+
+.review-name, .review-name2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.review-name    {
+    position: absolute;
+    left: 200px;
+    top: 300px;
+}
+
+.review-name2   {
+    position: absolute;
+    left: 200px;
+    top: 300px;
+}
+
+/* Benefit section */
+
+#benefits {
+    background-color: #eeeeee;
+    padding: 5% 7%;
+    text-align: center;
+}
+
+.benefits-title {
+    margin-bottom: 80px;
+    font-size: 3rem;
+}
+
+.location-container, .competitive-container, .guarantee-container, .genuine-spare-parts-container {
+    margin-bottom: 40px;
+}
+
+.location-icon, .pricing-icon, .guarantee-icon, .genuine-icon {
+    font-size: 3rem;
+    color: #008937;
+    margin-bottom: 20px;
+}
+
+/* Portfolio */
+
+#short-portfolio {
+    padding: 5% 7%;
+    text-align: center;
+}
+
+.serviced-cars-title, .happy-customers-title, .rating-title {
+    color: #008937;
+}
+
+/* Divider */
+
+.divider {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+/* App Download */
+
+#download-app {
+    padding: 10% 7% 2%;
+    position: relative;
+}
+
+.download-title {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.download-paragraph {
+    font-size: 1.5rem;
+    color: #545454;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.left-download-container img {
+    width: 250px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.screenshot img {
+    width: 400px;
+    position: absolute;
+    left: 100px;
+}
+
+.download-link-text {
+    font-size: 2.5rem;
+    color: #FA0000;
+    margin-bottom: 40px;
+}
+
+.left-download-container input {
+    border: none;
+    background-color: #F4F4F4;
+    padding: 20px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.downld-arrow-icon {
+    position: relative;
+    right: 50px;
+}
+
+
+/* Staff Section */
+#technician {
+    background-color: rgb(255, 255, 255);
+    padding: 6% 7%;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.technician-title   {
+    font-size: 2.4rem;
+    margin-bottom: 100px;
+}
+
+.first-technician, .second-technician, .third-technician, .fourth-technician  {
+    display: flex;
+    margin: 40px 0;
+}
+
+.first-technician img, .second-technician img, .third-technician img, .fourth-technician img{
+    width: 200px;
+    height: 200px;
+}
+
+.staff-contents {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.ft-rating-number, .st-rating-number, .third-rating-number, .fourth-rating-number   {
+    display: inline-block;
+}
+
+.star-icon {
+    color: #fdf900;
+}
+
+
+/* Subscribe section */
+
+#subscribe {
+    background-color: #2e2e2e;
+    background-image: url("/images/bg-sub.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 5% 7%;
+    text-align: center;
+    display: block;
+    color: #fff;
+}
+
+.subscribe-title {
+    font-size: 2.5rem;
+}
+
+#subscribe input {
+    border: none;
+    border-radius: 5px;
+    background-color: #F4F4F4;
+    width: 40%;
+    padding: 15px 60px;
+    margin: 15px auto;
+    display: block;
+}
+
+.sub-mail-icon {
+    position: relative;
+    top: 55px;
+    right: 200px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #00cc1f;
+}
+.sub-btn {
+    margin: auto 0;
+    color: #fff;
+    background-color: #008937;
+    width: 40%;
+    padding: 10px 60px;
+}
+
+.sub-btn:hover {
+    background-color: #003013;
+}
+
+/* FAQs */
+
+#faqs {
+    padding: 10% 5% 3%;
+    text-align: center;
+}
+
+.faq-title {
+    margin-bottom: 100px;
+    font-size: 2.3rem;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+
+  .collapsible:after {
+    content: '\002B';
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    text-align: left;
+  }
+
+  /* Footer */
+
+#footer {
+    background-color: #000;
+    padding: 7% 7%;
+    margin-top: 10%;
+}
+
+.footer-brand-container img {
+    width: 80px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.footer-social-icons {
+    font-size: 2rem;
+    color: #fff;
+    padding: 5px;
+}
+
+.footer-social-icons:hover{
+    color: #53FF6E;
+}
+
+.about, .our-services, .legal {
+    padding: 10px;
+    color: #fff;
+}
+
+.about ul, .our-services ul, .legal ul {
+    color: #fff;
+    padding: 20px 0;
+}
+
+.about li, .our-services li, .legal li {
+    color: #fff;
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+.about li a, .our-services li a, .legal li a {
+    color: rgb(124, 124, 124);
+    text-decoration: none;
+}
+
+.about li a:hover, .our-services li a:hover, .legal li a:hover {
+    color: rgb(63, 63, 63);
+}
+
+.copyrights  {
+    color: #8C8C8C;
+}
+
+.footer-download-text  {
+    color: #53FF6E;
+}
+
+.footer-download-container img  {
+    width: 200px;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}

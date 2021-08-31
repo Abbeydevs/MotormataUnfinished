@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Motormata </title>
+
+    <!-- AOS animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Bootstrap Javascripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- fontawesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+    <section id="header">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="">
+                    <img src="images/logo_motormata.png" alt="Company Brand">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cta">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn nav-btn">Sign in</button>
+            </nav>
+
+            <!-- Hero section -->
+            <div class="hero">
+                <div class="row">
+                    <!-- left side contents -->
+                    <div class="col-lg-8 left-hero-title">
+                        <h1 data-aos="fade-up" data-aos-duration="3000" class="hero-title">Drive with <span
+                                class="green-hero-text">confidence!</span></h1>
+                        <p data-aos="fade-right" data-aos-duration="3000" class="hero-paragraph">Experience the best car
+                            services in Nigeria.</p>
+                        <button data-aos="fade-up" data-aos-duration="3000" class="btn signup-btn">
+                            Sign Up with mobile number &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+
+                    <!-- Right side contents -->
+                    <div data-aos="zoom-in" data-aos-duration="3000" class="col-lg-4 right-container">
+                        <h1 class="rt-form-title">Register your Vehicle</h1>
+                        <form action="">
+                            <i class="car-icon fas fa-car-side"></i>
+                            <input type="number" placeholder="Plate Number">
+                            <i class="call-icon fas fa-phone-alt"></i>
+                            <input type="tel" placeholder="070123456789">
+                            <a href="#"><button class="btn rtc-btn">Get Started</button></a>
+                        </form>
+                        <p class="rc-btm-title">Join our 30,000 Happy Customers</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <nav class="navbar navbar-expand-lg" data-spy="affix" data-offset-top="197">
+            <ul class="nav navbar-nav navbar-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">All Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Motormata Doctor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cta">How we work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cta">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cta">Benefits</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div data-aos="fade-up" data-aos-duration="3000" class="services-offered">
+            <div class="row">
+                <div class="col-lg-4 periodic-services">
+                    <a href="">
+                        <h3 class="ps-title">Periodic Services</h3>
+                        <img src="images/periodic-img.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 body-repairs">
+                    <a href="">
+                        <h3 class="br-title">Body Repairs</h3>
+                        <img src="images/periodic-img.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 ac-repair">
+                    <a href="">
+                        <h3 class="acr-title">AC Repair</h3>
+                        <img src="images/periodic-img.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row sec-row">
+                <div class="col-lg-4 custom-services">
+                    <a href="">
+                        <h3 class="cs-title">Custom service</h3>
+                        <img src="images/periodic-img.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 paper-insurance">
+                    <a href="">
+                        <h3 class="pi-title">Paper Insurance</h3>
+                        <img src="images/periodic-img.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 batteries">
+                    <a href="">
+                        <h3 class="bt-title">Batteries</h3>
+                        <img src="images/periodic-img.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Motormata Doctor -->
+    <section id="motormata-doctor">
+        <h1 data-aos="zoom-in" data-aos-duration="3000" class="md-title">Have you heard of Motormata Doctor</h1>
+        <p data-aos="zoom-in" data-aos-duration="3000" class="md-paragraph">Our specialist inspect your car every month
+            for a good car management.</p>
+    </section>
+
+    <!-- How it works section -->
+    <section id="how-it-works">
+        <h3 data-aos="fade-up" data-aos-duration="3000" class="how-title">How we work</h3>
+        <div class="row">
+            <div class="col-lg-6 select-car">
+                <img data-aos="fade-right" data-aos-duration="3000" src="images/car-service.png"
+                    alt="Select cars images">
+                <h3 data-aos="fade-up" data-aos-duration="3000" class="select-car-title">Select the perfect Car Service</h3>
+                <p data-aos="fade-up" data-aos-duration="3000" class="schedule-paragraph">From our Broad Portfolio of Services.</p>
+            </div>
+
+            <div class="col-lg-6 free-pickup">
+                <img data-aos="fade-left" data-aos-duration="3000" src="images/car-service.png" alt="Schedule">
+                <h3 data-aos="fade-up" data-aos-duration="3000" class="schedule-title">Schedule Free Doorstep Pick-up</h3>
+                <p data-aos="fade-up" data-aos-duration="3000" class="schedule-paragraph">We offer free pick up and drop for all services booked.</p>
+            </div>
+
+            <div class="col-lg-6 hw-paper-insurance">
+                <img data-aos="fade-right" data-aos-duration="3000" src="images/car-service.png" alt="paper-insurance">
+                <h3 data-aos="fade-up" data-aos-duration="3000" class="hw-p-i-title">Get your car papers insurance </h3>
+                <p data-aos="fade-up" data-aos-duration="3000" class="hw-p-i-paragraph">We can get you your papers on time without hassles</p>
+            </div>
+
+            <div class="col-lg-6 track-car">
+                <img data-aos="fade-left" data-aos-duration="3000" src="images/car-service.png" alt="track-car">
+                <h3 data-aos="fade-up" data-aos-duration="3000" class="tc-tile">Track your car service real-time</h3>
+                <p data-aos="fade-up" data-aos-duration="3000" class="tc-paragraph">When you register and setup your account, you are given a dashboard to help
+                    monitor your car service in real time</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials section -->
+    <section id="testimonials">
+        <h3 data-aos="fade-up" data-aos-duration="3000" class="testimonials-title">Here what our Customers Say</h3>
+        <div class="row">
+
+            <!-- First review -->
+            <div data-aos="zoom-in" data-aos-duration="3000" class="col-lg-6 first-testimony">
+                <div class="first-t-container">
+                    <h4 class="review-text1">“I enjoyed using Motormata, they help me manage my car very well and I
+                        really appreciate them for all they’ve done.” </h4>
+                    <img class="img-name1" src="images/customer1.png" alt="">
+                    <p class="review-name">Adebayo, Williams</p>
+                </div>
+            </div>
+
+            <!-- Second Review -->
+            <div data-aos="zoom-in" data-aos-duration="3000" class="col-lg-6 second-testimony">
+                <div class="second-t-container">
+                    <h4 class="review-text2">“I enjoyed using Motormata, they help me manage my car very well and I
+                        really appreciate them for all they’ve done.” </h4>
+                    <img class="img-name2" src="images/customer2.png" alt="">
+                    <p class="review-name2">Emmanuelle, Joyce</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Motormata Benefits -->
+    <section id="benefits">
+        <h3 data-aos="fade-up" data-aos-duration="3000" class="benefits-title">Motormata Benefits</h3>
+        <div class="row">
+            <div data-aos="zoom-in" data-aos-duration="3000" class="col-lg-6 location-container">
+                <i class="location-icon fas fa-map-marker-alt"></i>
+                <h4 class="location-title">Free Doorstep pick-up & Drop</h4>
+                <p class="location-paragraph">You don’t need to visit our workshop when it’s not neccessary.</p>
+            </div>
+
+            <div data-aos="zoom-out" data-aos-duration="3000" class="col-lg-6 competitive-container">
+                <i class="pricing-icon fas fa-tags"></i>
+                <h4 class="competitive-title">Upfront & Competitve price</h4>
+                <p class="competitive-paragraph">Save more money when you use our services.</p>
+            </div>
+
+            <div data-aos="zoom-in" data-aos-duration="3000" class="col-lg-6 guarantee-container">
+                <i class="guarantee-icon fas fa-medal"></i>
+                <h4 class="guarantee-title">Network guarantee on Car Service</h4>
+                <p class="guarantee-paragraph">Warranty on Car service.</p>
+            </div>
+
+            <div data-aos="zoom-out" data-aos-duration="3000" class="col-lg-6 genuine-spare-parts-container">
+                <i class="genuine-icon fas fa-cogs"></i>
+                <h4 class="genuine-spare-p-title">100% Genuine Spare parts</h4>
+                <p class="genuine-paragraph">We use only original and genuine spare parts.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Short portfolio -->
+    <section data-aos="zoom-in" data-aos-duration="3000" id="short-portfolio">
+        <div class="row">
+            <div class="col-lg-4 serviced-cars">
+                <h4 class="serviced-cars-title">2M+</h4>
+                <p class="serviced-cars-paragraph">Cars Serviced</p>
+            </div>
+
+            <div class="col-lg-4 happy-customer">
+                <h4 class="happy-customers-title">1M+</h4>
+                <p class="happy-customers-paragraph">Happy Customers</p>
+            </div>
+
+            <div class="col-lg-4 rating">
+                <h4 class="rating-title">4.5</h4>
+                <p class="rating-paragraph">Average Rating</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- Download section -->
+    <section id="download-app">
+        <div class="row">
+            <div data-aos="fade-right" data-aos-duration="3000" class="col-lg-7 left-download-container">
+                <h3 class="download-title">Download Motormata App</h3>
+                <p class="download-paragraph">Use our service on the Go. You can access any of our service on the Go
+                    on your phone.</p>
+                <a href=""><img src="images/google-badge.png" alt="googleplay image"></a>
+                <a href=""><img src="images/appstore-badge.png" alt="appstore image"></a>
+                <h4 class="download-link-text">Enter your phone number to get download link</h4>
+                <input type="text" placeholder="Enter mobile number with country code">
+                <i class="downld-arrow-icon fas fa-long-arrow-alt-right"></i>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="3000" class="col-lg-5 screenshot">
+                <img src="images/screenshot.png" alt="Phone screenshot">
+            </div>
+        </div>
+    </section>
+
+    <!-- Technician section -->
+    <section id="technician">
+        <h3 data-aos="fade-up" data-aos-duration="3000" class="technician-title">Our Top Technicians</h3>
+        <div class="row">
+            <div class="col-lg-6 first-technician">
+                <img data-aos="zoom-in" data-aos-duration="3000" src="images/staff.png" alt="">
+                <div data-aos="fade-up" data-aos-duration="3000" class="staff-contents">
+                    <h4 class="first-technician-title">Adewale Shuaib</h4>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <p class="ft-rating-number">4.0</p>
+                    <ul>
+                        <li>5 years Experience</li>
+                        <li>Speaks English, Yoruba and French fluently</li>
+                        <li>Repaired 12 Car ACs last week</li>
+                    </ul>
+                    <p class="ft-t-text">Adewale handles our AC services for our customers. He is reliable and time
+                        conscious. He doesn’t
+                        delay works and has gotten a lot of positive reviews from clients.</p>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 second-technician">
+                <img data-aos="zoom-in" data-aos-duration="3000" src="images/staff.png" alt="">
+                <div data-aos="fade-up" data-aos-duration="3000" class="staff-contents">
+                    <h4 class="second-technician-title">Adewale Shuaib</h4>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <p class="st-rating-number">4.0</p>
+                    <ul>
+                        <li>5 years Experience</li>
+                        <li>Speaks English, Yoruba and French fluently</li>
+                        <li>Repaired 12 Car ACs last week</li>
+                    </ul>
+
+                    <p class="st-t-text">Adewale handles our AC services for our customers. He is reliable and time
+                        conscious. He doesn’t
+                        delay works and has gotten a lot of positive reviews from clients.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 third-technician">
+                <img data-aos="zoom-in" data-aos-duration="3000" src="images/staff.png" alt="">
+                <div data-aos="fade-up" data-aos-duration="3000" class="staff-contents">
+                    <h4 class="third-technician-title">Adewale Shuaib</h4>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <p class="third-rating-number">4.0</p>
+                    <ul>
+                        <li>5 years Experience</li>
+                        <li>Speaks English, Yoruba and French fluently</li>
+                        <li>Repaired 12 Car ACs last week</li>
+                    </ul>
+
+                    <p class="third-t-text">Adewale handles our AC services for our customers. He is reliable and time
+                        conscious. He doesn’t
+                        delay works and has gotten a lot of positive reviews from clients.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 fourth-technician">
+                <img data-aos="zoom-in" data-aos-duration="3000" src="images/staff.png" alt="">
+                <div data-aos="fade-up" data-aos-duration="3000" class="staff-contents">
+                    <h4 class="fourth-technician-title">Adewale Shuaib</h4>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <i class="star-icon fas fa-star"></i>
+                    <p class="fourth-rating-number">4.0</p>
+                    <ul>
+                        <li>5 years Experience</li>
+                        <li>Speaks English, Yoruba and French fluently</li>
+                        <li>Repaired 12 Car ACs last week</li>
+                    </ul>
+
+                    <p class="fourth-t-text">Adewale handles our AC services for our customers. He is reliable and time
+                        conscious. He doesn’t
+                        delay works and has gotten a lot of positive reviews from clients.</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+    </section>
+
+    <!-- Subscribe section -->
+    <section id="subscribe">
+        <div class="subscribe-container">
+            <h3 class="subscribe-title">Subscribe for updates</h3>
+            <i class="sub-mail-icon fas fa-envelope-open-text"></i>
+            <input type="email" placeholder="Email Address">
+            <button class="btn sub-btn">Subscribe</button>
+        </div>
+    </section>
+
+    <!-- FAQs special css design lookup at w3school-->
+    <section id="faqs">
+        <h3 data-aos="fade-up" data-aos-duration="3000" class="faq-title">Frequently asked question</h3>
+        <button class="collapsible">What is Motormata?</button>
+        <div class="content">
+            <p>Motormata is an automobile technology company that is building solutions to better connect motorists to
+                their vehicles. We leverage technology to build relationships with stakeholders to deliver solutions
+                that are easy to use and accessible to all stakeholders. Vehicle recovery, Registering, Renewal and
+                Buying genuine OEM or aftermarket vehicle parts can be a hassle. MotorMata is on a mission to make all
+                these easy, speedy and reliable. Technology driven solutions to deliver value across the automobile
+                value chain. </p>
+        </div>
+        <button class="collapsible">Why should I choose Motormata?</button>
+        <div class="content">
+            <p>Motormata is an automobile technology company that is building solutions to better connect motorists to
+                their vehicles. We leverage technology to build relationships with stakeholders to deliver solutions
+                that are easy to use and accessible to all stakeholders. Vehicle recovery, Registering, Renewal and
+                Buyin
+                g genuine OEM or aftermarket vehicle parts can be a hassle. MotorMata is on a mission to make all
+                these easy, speedy and reliable. Technology driven solutions to deliver value across the automobile
+                value chain. </p>
+        </div>
+        <button class="collapsible">How are you different?</button>
+        <div class="content">
+            <p>Motormata is an automobile technology company that is building solutions to better connect motorists to
+                their vehicles. We leverage technology to build relationships with stakeholders to deliver solutions
+                that are easy to use and accessible to all stakeholders. Vehicle recovery, Registering, Renewal and
+                Buying genuine OEM or aftermarket vehicle parts can be a hassle. MotorMata is on a mission to make all
+                these easy, speedy and reliable. Technology driven solutions to deliver value across the automobile
+                value chain. </p>
+        </div>
+        <button class="collapsible">Can I book a service online?</button>
+        <div class="content">
+            <p>Motormata is an automobile technology company that is building solutions to better connect motorists to
+                their vehicles. We leverage technology to build relationships with stakeholders to deliver solutions
+                that are easy to use and accessible to all stakeholders. Vehicle recovery, Registering, Renewal and
+                Buying genuine OEM or aftermarket vehicle parts can be a hassle. MotorMata is on a mission to make all
+                these easy, speedy and reliable. Technology driven solutions to deliver value across the automobile
+                value chain. </p>
+        </div>
+        <button class="collapsible">Do I have to pay before service?</button>
+        <div class="content">
+            <p>Motormata is an automobile technology company that is building solutions to better connect motorists to
+                their vehicles. We leverage technology to build relationships with stakeholders to deliver solutions
+                that are easy to use and accessible to all stakeholders. Vehicle recovery, Registering, Renewal and
+                Buying genuine OEM or aftermarket vehicle parts can be a hassle. MotorMata is on a mission to make all
+                these easy, speedy and reliable. Technology driven solutions to deliver value across the automobile
+                value chain. </p>
+        </div>
+        <button class="collapsible">Do you have an instagram page?</button>
+        <div class="content">
+            <p>Motormata is an automobile technology company that is building solutions to better connect motorists to
+                their vehicles. We leverage technology to build relationships with stakeholders to deliver solutions
+                that are easy to use and accessible to all stakeholders. Vehicle recovery, Registering, Renewal and
+                Buying genuine OEM or aftermarket vehicle parts can be a hassle. MotorMata is on a mission to make all
+                these easy, speedy and reliable. Technology driven solutions to deliver value across the automobile
+                value chain. </p>
+        </div>
+        <button class="collapsible">What is Motormata Doctor?</button>
+        <div class="content">
+            <p>Motormata is an automobile technology company that is building solutions to better connect motorists to
+                their vehicles. We leverage technology to build relationships with stakeholders to deliver solutions
+                that are easy to use and accessible to all stakeholders. Vehicle recovery, Registering, Renewal and
+                Buying genuine OEM or aftermarket vehicle parts can be a hassle. MotorMata is on a mission to make all
+                these easy, speedy and reliable. Technology driven solutions to deliver value across the automobile
+                value chain. </p>
+        </div>
+        <button class="collapsible">How can I benefit from Motormata?</button>
+        <div class="content">
+            <p>Motormata is an automobile technology company that is building solutions to better connect motorists to
+                their vehicles. We leverage technology to build relationships with stakeholders to deliver solutions
+                that are easy to use and accessible to all stakeholders. Vehicle recovery, Registering, Renewal and
+                Buying genuine OEM or aftermarket vehicle parts can be a hassle. MotorMata is on a mission to make all
+                these easy, speedy and reliable. Technology driven solutions to deliver value across the automobile
+                value chain. </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <footer>
+            <div class="row">
+                <div class="col-lg-4 footer-brand-container">
+                    <img src="images/logo_motormata.png" alt="company brand">
+                    <a href=""><i class="footer-social-icons fab fa-facebook-square"></i></a>
+                    <a href=""><i class="footer-social-icons fab fa-instagram-square"></i></a>
+                    <a href=""><i class="footer-social-icons fab fa-linkedin"></i></a>
+                    <a href=""><i class="footer-social-icons fab fa-twitter-square"></i></a>
+                    <a href=""><i class="footer-social-icons fab fa-whatsapp-square"></i></a>
+                </div>
+
+                <div class="col-lg-3 about">
+                    <h4 class="about-title">About us</h4>
+                    <ul>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Company</a></li>
+                        <li><a href="">Team</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 our-services">
+                    <h4 class="our-services-title">Our Services</h4>
+                    <ul>
+                        <li><a href="">Periodic Services</a></li>
+                        <li><a href="">Body Repairs</a></li>
+                        <li><a href="">Insurance Papers</a></li>
+                        <li><a href="">Car AC</a></li>
+                        <li><a href="">Custom Services</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 legal">
+                    <h4 class="legal-title">Legal</h4>
+                    <ul>
+                        <li><a href="">Terms & Condition</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <p class="col-lg-6 copyrights">&copy; 2021 Copyright Motormata. All Rights reserved.</p>
+                <div class="col-lg-6 footer-download-container">
+                    <h4 class=" footer-download-text">Download here</h4>
+                    <img class="" src="images/google-badge.png" alt="footer googleplay image">
+                    <img class="" src="images/appstore-badge.png" alt="footer appstore image">
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+    <!-- For the FAQs section -->
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+
+    </script>
+
+
+    <!-- AOS animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+
+
+</html>
